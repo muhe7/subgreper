@@ -1,9 +1,13 @@
 # subgreper
-Wrapper around subdomain finding tools
-
+Recon script
 ```
 bash subg.sh -d target
 ```
+To get telegram notification
+```
+bash subg.sh -d target -tg
+```
+
 ## Telegram notification
 
 ```
