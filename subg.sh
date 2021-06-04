@@ -1,8 +1,8 @@
 #! /bin/bash
 
 #telegram_bot
-telegram_api_key="1653742854:AAHGjLHzPwKeXXn9skGBXwXteXambrGNzOk"
-telegram_chat_id="854271285"
+telegram_api_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+telegram_chat_id="xxxxxxx"
 
 #input
 while [ -n "$1" ]; do
