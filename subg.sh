@@ -54,7 +54,7 @@ then
 	echo '_____________________________________________'
 	echo  "${red} Nuclei Scan ${reset}"
 	echo '---------------------------------------------'
-	cat $dir/_resolved | nuclei -t /root/nuclei-templates/exposures -o $dir/_nuclei-exposures;
+	cat $dir/_resolved | nuclei -t /root/nuclei-templates/exposures -o $dir/_nuclei-exposures -silent;
 	echo  "${red} 1.Exposures ${reset}"
 	cat $dir/_resolved | nuclei -t /root/nuclei-templates/network -o $dir/_nuclei-network -silent;
 	echo  "${red} 2.Network ${reset}"
